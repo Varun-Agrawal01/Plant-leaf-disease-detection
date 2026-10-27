@@ -1,0 +1,34 @@
+
+# Virtual environment
+.venv/
+venv/
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Environment variables
+.env
+
+# IDE settings
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs and temporary files
+*.log
+*.tmp
+
+# Dataset (too large for GitHub)
+Plant_leave_diseases_dataset_with_augmentation/
+
+# Trained models (large files)
+models/*.keras
+models/*.h5
+
+# Training checkpoints
+checkpoints/
+logs/
